@@ -21,8 +21,7 @@ const schoolBreak = [
   },
 ];
 schoolBreak.forEach((schoolBreak) => console.log(schoolBreak.monthName));
-const whichDays = schoolBreak.forEach((schoolBreak) => console.log(schoolBreak.daysOff));
-schoolBreak.daysOff.forEach((whichDays) => console.log(whichDays));
+schoolBreak.forEach((schoolBreak) => console.log(schoolBreak.daysOff));
 const week = schoolBreak.filter(
   (schoolBreak) => schoolBreak.fullWeek === false
 );
