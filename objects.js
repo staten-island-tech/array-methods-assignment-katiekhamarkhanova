@@ -25,4 +25,5 @@ schoolBreak.forEach((schoolBreak) => console.log(schoolBreak.daysOff));
 const week = schoolBreak.filter(
   (schoolBreak) => schoolBreak.fullWeek === false
 );
+var days = [schoolBreak.daysOff];
 week.forEach((week) => console.log(week.monthName, week.fullWeek));
